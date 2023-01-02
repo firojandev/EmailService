@@ -19,7 +19,7 @@ namespace ELSService.Services
         {
             var factory = new ConnectionFactory
             {
-                Uri = new Uri("amqps://gkemaqmj:i6Mr9GWALfTPbpnKMisaHgeplyTXJJp5@campbell.lmq.cloudamqp.com/gkemaqmj")
+                Uri = new Uri("")
             };
 
             // create a connection and open a channel, dispose them when done
